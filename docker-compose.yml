@@ -1,0 +1,8 @@
+services:
+  vanbreda-agent:
+    build: .
+    image: vanbreda-airs-demo:latest
+    env_file: .env
+    ports:
+      - "${HOST_PORT:-18080}:8080"
+    restart: unless-stopped
