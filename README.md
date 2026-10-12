@@ -1,5 +1,7 @@
 # Vanbreda Risk & Benefits – demo agent for Prisma AIRS PoC
 
+![Vera demo agent: a normal question, then a prompt injection blocked by Prisma AIRS](docs/screenshot.png)
+
 Small chat agent ("Vera") with Vanbreda branding. Every LLM call goes through the
 **Prisma AIRS AI Gateway** endpoint you configure, so prompts, tool results and
 responses are inspected by AI Runtime Security.
